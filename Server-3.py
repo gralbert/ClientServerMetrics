@@ -104,7 +104,5 @@ class ClientServerProtocol(asyncio.Protocol):
 
 
 if __name__ == '__main__':
-    try:
-        run_server('127.0.0.1', 8889)
-    except:
-        pass
+    run_server('127.0.0.1', 8888)
+
